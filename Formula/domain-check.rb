@@ -1,15 +1,15 @@
 class DomainCheck < Formula
   desc "Fast, powerful CLI tool for checking domain availability using RDAP and WHOIS"
   homepage "https://github.com/saidutt46/domain-check"
-  version "0.9.0"
+  version "0.9.1"
   license "Apache-2.0"
 
   if Hardware::CPU.arm?
-    url "https://github.com/saidutt46/domain-check/releases/download/v0.9.0/domain-check-macos-aarch64.tar.gz"
-    sha256 "a382f17b47095b7d04f2d7a47cd90638f220a2edc059201c1552190700de477b"
+    url "https://github.com/saidutt46/domain-check/releases/download/v0.9.1/domain-check-macos-aarch64.tar.gz"
+    sha256 "8bcb4d9dfb8686b3ed4789f10a826dd6bef02eaa4e790a4accb014db4e870bdf"
   else
-    url "https://github.com/saidutt46/domain-check/releases/download/v0.9.0/domain-check-macos-x86_64.tar.gz"
-    sha256 "46cfbcc950966c8bcc7631beaf78ab42da7a23adf08b9f60c47059bc6d8402b5"
+    url "https://github.com/saidutt46/domain-check/releases/download/v0.9.1/domain-check-macos-x86_64.tar.gz"
+    sha256 "cc49fff230582ca8d8b14280064ca49b33494b7b38241ed1c9e4b16db0bfef54"
   end
 
   def install
