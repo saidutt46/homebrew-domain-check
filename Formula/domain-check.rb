@@ -6,10 +6,10 @@ class DomainCheck < Formula
 
   if Hardware::CPU.arm?
     url "https://github.com/saidutt46/domain-check/releases/download/v1.0.1/domain-check-macos-aarch64.tar.gz"
-    sha256 "395388084c218d43fd700aaf377f7c7877f868df35084d4026077d422049ddde"
+    sha256 "533e2321338f8d7d81f23671de11cf51140f976ad0e2beb1d0b4a0342fa9e32f"
   else
     url "https://github.com/saidutt46/domain-check/releases/download/v1.0.1/domain-check-macos-x86_64.tar.gz"
-    sha256 "aa32959a7f68a762a098436976e0aa9326088aa0b2e10edc964f7fc5c7c11352"
+    sha256 "7b548c2827991801743b242fd7039637c3247b87a0bee0e047123c3bd81244fc"
   end
 
   def install
